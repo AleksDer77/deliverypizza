@@ -3,6 +3,7 @@
     height: 50px;
     padding: var(--spacing-small);
     background-color: var(--color-medium);
+    justify-content: end;
 }
 
 .header-counter {
@@ -10,4 +11,9 @@
     padding-right: var(--spacing-small);
     font-weight: bold;
     cursor: pointer;
+}
+
+header {
+    position: sticky;
+    top: 0;
 }

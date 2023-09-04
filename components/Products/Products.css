@@ -9,6 +9,8 @@
 }
 
 .products-element {
+    width: 250px;
+    height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
